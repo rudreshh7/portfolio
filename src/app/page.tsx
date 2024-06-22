@@ -8,8 +8,8 @@ export default function Home() {
         <h1 className="font-bold text-2xl my-16">sup, I am Rudresh Jha 👋</h1>
         <div>
           <p className="mb-4">
-            I'm a full-stack engineer, optimist, and a Bibulous.I am proficient
-            in <span className="font-semibold">Typescript</span> and{" "}
+            I&apos;m a full-stack engineer, optimist, and a Bibulous.I am
+            proficient in <span className="font-semibold">Typescript</span> and
             <span className="font-semibold">Java</span>. I am currently working
             on SchoolERP.
           </p>
