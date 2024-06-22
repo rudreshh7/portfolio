@@ -1,5 +1,5 @@
 import React from "react";
-import Link from "next/Link";
+import Link from "next/link";
 const Navbar = () => {
   return (
     <nav className="flex justify-between m-6 md:backdrop-blur md:my-15 md:mx-40 lg:mx-80">
