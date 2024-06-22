@@ -1,6 +1,19 @@
 import React from "react";
 
-const ProjectCard = ({ title, description, stack, github, live }) => {
+interface ProjectCardProps {
+  title: string;
+  description: string;
+  stack: string[];
+  github: string;
+  live: string;
+}
+const ProjectCard: React.FC<ProjectCardProps> = ({
+  title,
+  description,
+  stack,
+  github,
+  live,
+}) => {
   return (
     <div
       id="project-card"
